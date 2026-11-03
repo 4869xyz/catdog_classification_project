@@ -10,14 +10,7 @@
 - `src/catdog/predict.py`：单图预测入口。
 - `outputs_best/dnn/best.pt`、`outputs_best/cnn/best.pt`、`outputs_best/rnn/best.pt`：历史归档权重；本次正则化结果见 outputs_regularized 和实验报告。
 
-## 在 CMD 中运行
 
-进入模型代码目录并激活已有环境：
-
-```bat
-cd /d "E:\NSSC\研1\研一上课程资料\自然语言处理\作业一\src\catdog"
-call "D:\project_anaconda\condabin\conda.bat" activate remdet2
-```
 
 训练全部三个最终模型：
 
